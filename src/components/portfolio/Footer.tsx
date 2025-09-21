@@ -84,9 +84,7 @@ const Footer = () => {
                 © {currentYear} Nihar Nagdeve. All rights reserved.
               </p>
               <div className="flex items-center gap-2 text-muted-foreground text-sm">
-                <span>Built with</span>
-                <Heart className="w-4 h-4 text-red-500 fill-current" />
-                <span>using React & Tailwind CSS</span>
+                <span>Built using React & Tailwind CSS</span>
               </div>
             </div>
           </div>
@@ -95,5 +93,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
